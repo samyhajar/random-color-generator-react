@@ -14,7 +14,7 @@ export default function RandomColor() {
         >
           Click Me!
         </button>
-        <p></p>
+        <br />
         {color}
       </h1>
     </div>
