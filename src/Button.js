@@ -6,17 +6,15 @@ export default function RandomColor() {
 
   return (
     <div style={{ color: color }}>
-      <h1>
-        <button
-          onClick={() => {
-            setColor(randomColor());
-          }}
-        >
-          Click Me!
-        </button>
-        <br />
-        {color}
-      </h1>
+      <button
+        onClick={() => {
+          setColor(randomColor());
+        }}
+      >
+        Click Me!
+      </button>
+      <br />
+      {color}
     </div>
   );
 }
